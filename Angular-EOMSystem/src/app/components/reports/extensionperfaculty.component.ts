@@ -19,7 +19,8 @@ import { BackendService } from "src/app/services/backend.service";
             </select>
 
             <button
-              class="btn btn-primary"
+              class="btn btn-warning" 
+              style="background-color: red; color: white; border: 0px;border-radius: 3px; padding: 7px;"
               id="leaderFilter"
               name="leaderFilter"
               (click)="filterByLeader()"
@@ -28,8 +29,8 @@ import { BackendService } from "src/app/services/backend.service";
               Filter By Leader
             </button>
     </div>
-    <button class="btn btn-primary generate">
-      Download List
+    <button class="btn btn-primary generate " >
+      <b>Download List</b>
     </button>
     <h3>List of Extension per Faculty</h3>
     <div class="perfaculty-container">

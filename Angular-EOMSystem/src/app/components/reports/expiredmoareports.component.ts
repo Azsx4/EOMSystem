@@ -23,12 +23,12 @@ import { BackendService } from "src/app/services/backend.service";
           Per Year
         </option>
       </select>
-      <button class="btn btn-primary" id="filterBy" name="filterBy" (click)="filterBy()">
+      <button class="btn" style="background-color: #e2832a; color: white; border: 0px;border-radius: 3px; padding: 7px;" id="filterBy" name="filterBy" (click)="filterBy()">
         Filter
       </button>
     </div>
     <button class="btn btn-primary generate" (click)="onGenerateExpiredMoaList()">
-      Download List
+      <b>Download List</b>
     </button>
 
     <div class="expired-container" id="expiredMoaList">
